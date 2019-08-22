@@ -1,0 +1,33 @@
+{
+  "name": "biki_openapi_ts",
+  "version": "1.0.0",
+  "description": "openapi for bili",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx ts-jest",
+    "test:api": "npx ts-node ./src/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-anohaker/biki_openapi_ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-anohaker/biki_openapi_ts/issues"
+  },
+  "homepage": "https://github.com/just-anohaker/biki_openapi_ts#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^12.7.2",
+    "@types/ws": "^6.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ws": "^7.1.2"
+  }
+}

@@ -1,6 +1,6 @@
 export { default as PublicClient } from "./lib/public-client";
 export { default as AuthorizationClient } from "./lib/authorization-client";
-export { default as WebsocketClient } from "./lib/websocket-client";
+export { default as WebSocketClient } from "./lib/websocket-client";
 export declare const enum RecordsPeriodType {
     OneMin = 1,
     FiveMin = 5,

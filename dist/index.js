@@ -5,5 +5,5 @@ exports.PublicClient = public_client_1.default;
 var authorization_client_1 = require("./lib/authorization-client");
 exports.AuthorizationClient = authorization_client_1.default;
 var websocket_client_1 = require("./lib/websocket-client");
-exports.WebsocketClient = websocket_client_1.default;
+exports.WebSocketClient = websocket_client_1.default;
 ;
